@@ -1,0 +1,77 @@
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 0%;
+    position: fixed;
+    overflow: hidden;
+    transition: 1.2 ease;
+}
+.fa-xmark{
+    position: absolute;
+    right: 20px;
+    top: 20px; 
+}
+.fa-xmark:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.mobile-nav-links a, .fa-xmark{
+    color:#bbb;
+    font-size: 34px;
+    transition: all 0.7s ease;
+}
+.mobile-nav-links a:hover{
+    color: #fff;
+    transform: translateX(20px);
+    
+}
+.mobile-nav-links{
+    height: 100vh;
+}
+
+.nav-links{
+    display: none;
+} 
+.introduction .sol-teref h1 span{
+    color: #ff8a56;
+}
+.introduction .book-a-call{
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    width: 151px;
+    height: 58px;
+    align-items: center;
+    justify-content: center;
+}
+.introduction .download{
+    text-decoration: none;
+    color: #000000;
+}
+.introduction .sol-teref h1{
+    font-size: 34px;
+}
+@media(min-width:768px) {
+.fa-bars{
+    display: none !important;
+}
+.nav-links
+{
+    display: flex;
+}
+}
+@media(min-width:992px){
+    .introduction .sol-teref h1{
+        font-size: 80px;
+    }
+    .introduction .download{
+        font-size: x-large;
+    }
+    .introduction .sol-teref h1 span{
+        font-size: 65px;
+    }
+}
+
+
